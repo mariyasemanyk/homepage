@@ -7,13 +7,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+ 
+    background-image: url('assets/background.jpg');
+    background-size: auto;
 
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #A9C356;
+  --text-decoration-color: #356554;
 }
 
 .container {
@@ -21,7 +24,13 @@ body {
   padding: 0 30px;
   max-width: 900px;
 }
-
+a:hover{
+    color: #7CA675;
+}
+a{
+    text-decoration: none;
+    color: #084B30;
+}
 .fh {
   display: flex;
   flex-direction: row;
@@ -40,6 +49,7 @@ body {
   box-shadow: 1px 1px 7px 7px #f5f5f5;
   padding: 30px 0;
   max-width: 900px;
+ background-color: #FDFDFD;
 }
 
 .resume__block {
@@ -47,7 +57,9 @@ body {
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
-
+.education-item{
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 576px) {
   .main-info,
   .contact_info_container {
